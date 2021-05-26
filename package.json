@@ -13,7 +13,18 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3",
-    "mongoose": "^5.3.16",
-    "morgan": "^1.9.1"
-  }
+    "mongodb": "^3.6.8",
+    "mongoose": "^5.12.11",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmidor/FitnessTracker.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/vmidor/FitnessTracker/issues"
+  },
+  "homepage": "https://github.com/vmidor/FitnessTracker#readme"
 }
