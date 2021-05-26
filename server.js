@@ -22,11 +22,11 @@ app.use(require("./routes/api_routes.js"))
 app.listen(PORT, () => {
     console.log(`App running on port ${PORT}!`);
 });
-const MongoClient = require('mongodb').MongoClient;
-const uri = "mongodb+srv://workout17:<wa1ww7slIFkNY8aq>@cluster0.bhwqy.mongodb.net/workoutdb?retryWrites=true&w=majority";
-const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
-client.connect(err => {
-    const collection = client.db("test").collection("devices");
-    // perform actions on the collection object
-    client.close();
-});
+// const MongoClient = require('mongodb').MongoClient;
+// const uri = "mongodb+srv://workout17:<wa1ww7slIFkNY8aq>@cluster0.bhwqy.mongodb.net/workoutdb?retryWrites=true&w=majority";
+// const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+// client.connect(err => {
+//     const collection = client.db("test").collection("devices");
+//     // perform actions on the collection object
+//     client.close();
+// });
