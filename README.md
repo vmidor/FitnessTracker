@@ -10,7 +10,7 @@ This app was uses Mongo database with Mongoose schema and handles routes with Ex
 
 A consumer will reach their fitness goals more quickly when they track their workout progress.
 ![screenshopt of the app](assets/dashboard.png)
-![screenshopt of the app](assets/page.png)
+![screenshopt of the app](assets/page1.png)
 
 ## Acceptance Criteria
 
@@ -25,3 +25,7 @@ The user should be able to:
 - View the combined weight of multiple exercises from the past seven workouts on the `stats` page.
 
 - View the total duration of each workout from the past seven workouts on the `stats` page.
+
+## Installation
+
+Please visit the deployed project at: https://tracker17.herokuapp.com/?id=60af029b1992fd0015d8fdb0
